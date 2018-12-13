@@ -1,0 +1,22 @@
+{
+	"data" : [
+		{
+			"name"  : "Tas Rajut",
+			"price" : "Rp. 125.000"
+		},
+		{
+			"name"  : "Tas Tangan Batik",
+			"price" : "Rp. 100.000"
+		},
+		{
+			"name"  : "Tas Pesta Batik Jogya ",
+			"price" : "Rp. 200.000"
+		},
+		{
+			"name"  : "Tas Rajut Motif Bunga",
+			"price" : "Rp. 200.000"
+		}
+
+
+	]
+}

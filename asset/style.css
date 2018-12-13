@@ -1,0 +1,267 @@
+
+     body{
+      font-family: Helvetica;
+      font-size: 16px;
+    }
+
+    .slogan{
+      font-family: PT Serif;
+      font-style: italic;
+      font-size: 18px;
+      color: black;
+      margin-top: 2%;
+    }
+
+    .login{
+      font-size: 15px;
+      margin-top: 50%;
+      color: black;
+      font-weight: bold;
+    }
+    
+    .garis{
+      height: 2px;
+      width: auto;
+      background-color: #AF7817;
+    }
+
+    .navr {
+      font-weight: bold;
+    }
+
+    .fixed-top{
+      background-color: white;
+    }
+
+    .login:hover{
+      color: #AF7817;
+      text-decoration: none;
+    }
+
+    .sampahse{
+
+    }
+
+     .ul1 li{
+      list-style-type:none;
+      height: 36px;
+      font-size: 18px;
+      font-family: Chaparral Pro Light;
+      font-weight:400;
+    }
+
+    .ul1 {
+      margin-left: 0;
+      padding: 0;
+    }
+    .ul1 li a{
+      color: black;
+      font-style: italic;
+    }
+
+    li a:hover{
+        text-decoration: none;
+        color: #AF7817;   
+    }
+
+    .kotak1-judul h3{
+      text-transform: uppercase;
+      color: #AF7817; 
+      font-weight: 600;
+      padding-bottom: 35px;
+
+    }
+
+    .create-by{
+      color: #AF7817;
+    }
+
+    .create-by:hover{
+      font-weight: bold;
+      text-decoration: none;
+      color: #AF7817;
+    }
+
+    .dropdown:hover .dropdown-menu:hover .dropdown-item:hover{
+      color: white;
+      background-color: #AF7817; 
+    }
+
+    .nav-item .nav-link{
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav-item:hover .nav-link:hover{
+      color: #AF7817;
+    }
+
+    .nav-item:active .nav-link{
+      color: #AF7817;
+    }
+
+    #drop:hover #navbardrop:hover{
+      color: #AF7817; 
+    }
+
+     #img5{
+      margin-top: 13%;
+      color: black;
+      font-weight: bold;
+      float: right;
+    }
+
+    #img5:hover{
+      border: 1px solid  #AF7817;
+    }
+
+    #rw{
+      border-bottom: 1px solid grey;
+    }
+
+    select{
+      white-space: pre;
+      min-width: 300px;
+      border:0;
+      font-size: 12px;
+      margin-left: 10px; 
+
+    }
+
+    select:focus {
+        outline: 0;
+    }
+
+    .sort option:hover{
+      background-color: gold;
+    }
+
+    #rw2 div{
+      padding: 2%;
+      margin-top: 2%;
+    }
+
+    #rw3 div{
+      padding: 2%;
+      margin-top: 2%;
+    }
+
+    .nama h3 a{
+      color: black;
+      text-transform: uppercase
+    }
+
+    .nama h3 a:hover{
+      color: #AF7817; 
+    }
+
+    .harga{
+      color: grey;
+    }
+
+    #list{
+      background-color: transparent;
+      padding-top: 4px;
+      border: none;
+      font-size: 15px;
+    }
+
+    #list:active{
+      color: #AF7817;
+    }
+
+    #list:focus{
+      outline: none; 
+    }
+
+    #grid{
+      background-color: transparent;
+      padding-top: 4px;
+      border: none;
+      font-size: 15px;
+    }
+
+    #grid:active{
+      color: #AF7817;
+    }
+
+    #grid:focus{
+      outline: none; 
+    }
+
+    .zoom {
+      display:inline-block;
+      position: relative;
+    }
+    
+    /* magnifying glass icon */
+    .zoom:after {
+      content:'';
+      display:block; 
+      width:33px; 
+      height:33px; 
+      position:absolute; 
+      top:0;
+      right:0;
+      background:url(icon.png);
+    }
+
+    .zoom img {
+      display: block;
+    }
+
+    .zoom img::selection { background-color: transparent; }
+
+    #ex1 img:hover { cursor: url(grab.cur), default; }
+    #ex1 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex2 img:hover { cursor: url(grab.cur), default; }
+    #ex2 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex3 img:hover { cursor: url(grab.cur), default; }
+    #ex3 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex4 img:hover { cursor: url(grab.cur), default; }
+    #ex4 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex5 img:hover { cursor: url(grab.cur), default; }
+    #ex5 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex6 img:hover { cursor: url(grab.cur), default; }
+    #ex6 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex7 img:hover { cursor: url(grab.cur), default; }
+    #ex7 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex8 img:hover { cursor: url(grab.cur), default; }
+    #ex8 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex9 img:hover { cursor: url(grab.cur), default; }
+    #ex9 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex10 img:hover { cursor: url(grab.cur), default; }
+    #ex10 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex11 img:hover { cursor: url(grab.cur), default; }
+    #ex11 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex12 img:hover { cursor: url(grab.cur), default; }
+    #ex12 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex13 img:hover { cursor: url(grab.cur), default; }
+    #ex13 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex14 img:hover { cursor: url(grab.cur), default; }
+    #ex14 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex15 img:hover { cursor: url(grab.cur), default; }
+    #ex15 img:active { cursor: url(grabbed.cur), default; }
+
+    #ex16 img:hover { cursor: url(grab.cur), default; }
+    #ex16 img:active { cursor: url(grabbed.cur), default; }
+
+    .fa:hover{
+      color: #AF7817;
+      text-decoration: none;
+    }
+  </style>
